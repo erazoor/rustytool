@@ -10,3 +10,7 @@ clap = "3.0.0"
 sysinfo = "*"
 crossterm = "0.22.1"
 tui = { version = "0.16.0", default-features = false, features = ["crossterm"]}
+
+[[bin]]
+name = "rustytool"
+path = "src/main.rs"
